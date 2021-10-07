@@ -10,6 +10,6 @@ def som(path):
 interval = randint(1,1800)
 
 while True:
+    sleep(interval)
     som('Water sound effect.mp3')
     sleep(6) #Sound effect takes 6s
-    sleep(interval)
