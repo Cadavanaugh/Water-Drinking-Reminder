@@ -16,8 +16,9 @@ x = 0
 while True:
     interval = randint(1,1800) # A random interval from 1s to 30min
     sleep(interval)
+
+    # Prompting
     clock_time = datetime.now().strftime("%H:%M:%S")
-    
     x+=1
     print(f"Water drank at {clock_time} [{x}]")
     som('Water sound effect.mp3')
