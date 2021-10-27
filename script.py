@@ -11,6 +11,7 @@ def som(path):
     mixer.music.play()
 
 system('cls' if name == 'nt' else 'clear')
+print("="*10,"WATER DRINKING REMINDER","="*10)
 
 x = 0 
 while True:
