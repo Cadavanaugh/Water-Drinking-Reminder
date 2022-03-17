@@ -21,5 +21,5 @@ while True:
     clock_time = datetime.now().strftime("%H:%M:%S")
     x+=1
     print(f"Water drank at {clock_time} [{x}]")
-    som('Water sound effect.mp3')
+    som('Water_sound_effect.mp3')
     sleep(6) # Sound effect takes 6s to finish
