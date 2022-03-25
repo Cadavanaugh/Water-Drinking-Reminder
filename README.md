@@ -20,4 +20,6 @@ The program will sort a number from 1 to 1800 everytime the loop iterates to cre
 
 When clock hits, the sound of a glass being filled with water will play. This is your warning to drink some water.
 
-[Water sound effect.mp3](./Water_sound_effect.mp3)
+<audio controls>
+  <source src="Water_sound_effect.mp3" type="audio/mpeg">
+</audio>
