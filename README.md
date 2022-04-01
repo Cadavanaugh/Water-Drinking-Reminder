@@ -1,4 +1,4 @@
-# 💧 Water Drinking Reminder 💧
+# 💧 Water Drinking Reminder
 
 ## 🤔 The problem
 
@@ -23,7 +23,3 @@ But unlikely those well-known apps where you have to drink a certain amount of w
 The program will sort a number from 1 to 1800 everytime the loop iterates to create a break ranging 1 second to 30 minutes. This will be used to make a random interval between water sips, so it doesn’t get predictable.
 
 When clock hits, the sound of a glass being filled with water will play. This is your warning to drink some water.
-
-<audio controls>
-  <source src="Water_sound_effect.mp3" type="audio/mpeg">
-</audio>
